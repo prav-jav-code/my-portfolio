@@ -1,0 +1,7 @@
+service id: service_1tv7n2i 
+
+config: 412Gmail_API: Request had insufficient authentication scopes.
+
+template-id: template_yn8mh1g
+
+api key: CZV54X3kO4V_UvNLr
