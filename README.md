@@ -1,70 +1,75 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Professional Portfolio | Praveen Kumar Raju
 
-## Available Scripts
+A modern, high-performance personal portfolio built with **React.js**. This project showcases my expertise in **Data Analysis**, computer science projects, and front-end development, featuring a sleek glassmorphism design and fully functional contact integration.
 
-In the project directory, you can run:
+![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Glassmorphism+Design)
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Glassmorphism UI**: A clean, "liquid" aesthetic using modern CSS backdrop filters and blurred background elements.
+- **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile devices.
+- **Email Integration**: Integrated with **EmailJS** for direct client-side messaging without a dedicated backend.
+- **Data Focused**: Custom sections highlighting statistical analysis, data cleaning, and visualization skills.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React.js
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Email Service**: EmailJS
+- **Styling**: CSS3 (Flexbox, Grid, Glassmorphism)
+- **Deployment**: [e.g., Vercel / Netlify / GitHub Pages]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation & Setup
 
-### `npm run build`
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/your-username/my-portfolio.git](https://github.com/your-username/my-portfolio.git)
+   cd my-portfolio
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install EmailJS**:
+   ```bash
+   npm install @emailjs/browser
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Environment Setup**:
+   To enable the contact form, ensure your `Contact.js` is updated with your specific EmailJS credentials:
+   - Service ID: `service_c8nvcpy`
+   - Template ID: `template_yn8mh1g`
+   - Public Key: `CZV54X3kO4V_UvNLr`
 
-### `npm run eject`
+5. **Run the application**:
+   ```bash
+   npm start
+   ```
+   The site will open at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+my-portfolio/
+├── public/           # Static assets (my-photo.png, favicon)
+├── src/
+│   ├── pages/        # Home, Projects, and Contact components
+│   ├── App.js        # Main routing logic
+│   ├── App.css       # Global glassmorphism styles
+│   └── index.js      # Entry point
+└── package.json      # Project dependencies and scripts
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📊 About Me
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I am a Computer Science undergraduate specializing in **Data Analysis**. I am passionate about transforming raw data into actionable insights through statistical modeling and visualization.
 
-## Learn More
+- **Skills**: Python, SQL, Tableau, React.js, Statistical Analysis.
+- **Education**: B.S. in Computer Science.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Developed by [Praveen Kumar Raju](https://github.com/prav-jav-code)
